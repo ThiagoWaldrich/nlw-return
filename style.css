@@ -1,0 +1,17 @@
+:root{
+    font-size: 62.5%;/*(10*100)/16 regra de 3, 1 rem = 10px*/
+}
+body{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.6rem;
+}
+h4{
+    font-size: 1.4rem;
+    color:#00858f;
+}
+h1{
+    font-size: 3.4rem;
+}
+p{
+    font-size: 1.8rem;
+}
