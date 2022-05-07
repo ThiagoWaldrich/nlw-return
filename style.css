@@ -7,6 +7,8 @@
     --primary-color: hsla(170, 100%, 26%,1);
     --headline: hsla(210, 11%, 15%, 1);
     --paragraph: hsla(210, 9%, 31%,1);
+    
+    --brand-beige: hsl(39, 100%, 97%);
 
     font-size: 62.5%;/*(10*100)/16 regra de 3, 1 rem = 10px*/
 }
@@ -66,7 +68,16 @@ button{
 
 
 }
-img{
+.stats{
+    width:32.7rem;
+    height:47rem;
 
+    margin-inline: auto;
+
+    background-color:var(--brand-beige);
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
