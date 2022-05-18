@@ -32,7 +32,7 @@ header{
 header::before{
     content: "";
     width:100vw;
-    height: 108vw;
+    height: calc(108vw + var(--nav-height));
     background-color: var(--breand-light);
     display:block;
 
