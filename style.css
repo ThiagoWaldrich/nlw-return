@@ -129,8 +129,6 @@ header img{
 /*NavBar*/
 nav{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
 
     height: var(--nav-height);
     /* padding-inline: 2.4rem;
@@ -141,6 +139,26 @@ nav{
     left:50%;
     transform:translateX(-50%)
 }
+nav .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav.scroll{
+    background-color: var(--primary-color);
+    width:100vw;
+}
+nav.scroll svg:nth-child(1) path{
+    fill: #ffffff;
+}
+nav.scroll svg:nth-child(2) path{
+    stroke:#ffffff;
+}
+
+/* nav.scroll svg path{
+    fill:#ffffff;
+    stroke:#ffffff;
+} */
 
 
 
